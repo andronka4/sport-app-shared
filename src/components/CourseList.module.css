@@ -1,0 +1,10 @@
+.courseList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.courseItem {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}

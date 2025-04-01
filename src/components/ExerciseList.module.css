@@ -1,0 +1,14 @@
+.exerciseList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.exerciseItem {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.exerciseHeading {
+  color: #333;
+}
