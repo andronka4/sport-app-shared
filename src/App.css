@@ -43,8 +43,8 @@ body {
   
 }
 .sidebar-button {
-  padding: 10px 15px;
-  margin-bottom: 10px; /* Додаємо відступ знизу */
+  padding: 10px 10px;
+ /* margin-bottom: 10px; /* Додаємо відступ знизу */
   border: none;
   border-radius: 5px;
   background-color: #ddd;
@@ -69,4 +69,19 @@ text-align: center;
 	  margin-left: 50px;
 	  margin-right: 50px;
   padding-left: 20px;
+}
+
+.auth-links {
+  display: flex;
+  flex-direction: row; /* Кнопки "Реєстрація" та "Вхід" в одному рядку */
+  width: auto; /* Займає необхідну ширину для вмісту */
+  align-items: center; /* Вирівнює кнопки по центру вертикально в межах auth-links */
+  justify-content: center; /* Центрує кнопки горизонтально всередині auth-links */
+  /* Додаткові стилі для auth-links */
+}
+
+.auth-sub-button {
+  margin-bottom: 5px; /* Відступ між кнопками реєстрації та входу */
+  margin-right: 10px;
+  /* Можете додати тут додаткові специфічні стилі, якщо вони потрібні */
 }
