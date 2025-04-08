@@ -11,8 +11,10 @@ function App() {
     <Router>
       <div className="app-container">
         <aside className="sidebar">
+		  <Link to="/HomePage" className="sidebar-button">Головна</Link>
           <Link to="/exercises" className="sidebar-button">Список вправ</Link>
           <Link to="/courses" className="sidebar-button">Готові курси</Link>
+
         </aside>
         <main className="main-content">
           <header className="app-header">

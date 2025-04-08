@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+body {
+  background-color: lightblue;
+  /* Інші ваші стилі для body */
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -45,6 +50,23 @@
   background-color: #ddd;
   cursor: pointer;
   font-size: 16px;
-  width: 100%;
-  text-align: left;
+width: auto;
+    margin-right: 10px; /* Додає відступ справа від кожної кнопки */
+text-align: center;
+}
+
+
+.sidebar {
+	  margin-top: 5px;
+	  display: flex;
+  justify-content: center;
+}
+
+
+
+.main-content {
+	    background-color: white;
+	  margin-left: 50px;
+	  margin-right: 50px;
+  padding-left: 20px;
 }
